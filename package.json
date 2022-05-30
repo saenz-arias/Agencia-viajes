@@ -4,7 +4,7 @@
   "description": "proyecto nodejs",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server",
+    "dev": "nodemon index.js",
     "start": "node index.js"
   },
   "type": "module",

@@ -4,7 +4,7 @@ import db from './config/db.js';
 // dotenv.config({path: 'variables.env'});
 // import('dotenv').config({path: 'variables.env'});
 
-
+// configurar express
 const app = express();
 
 // Conectar base de datos
@@ -12,7 +12,7 @@ db.authenticate()
      .then( () => console.log('Base de datos conectada')) 
      .catch( error => console.log(error));
 
-// Definir puerto
+// Definir puerto Localhost
 // const port = process.env.PORT || 4000;
 
 // Habilitar PUG
